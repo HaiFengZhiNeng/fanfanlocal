@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">智能咨询系统</string>
+
+    <string name="app_id">5a27877d</string>
+
+    <string name="title_voice_set">语 音 设 置</string>
+    <string name="title_voice_add">语 音 添 加</string>
+    <string name="title_forget">密 码 修 改</string>
+    <string name="title_import">本 地 导 入</string>
+    <string name="title_import_file">文 件 导 入</string>
+    <string name="title_amap">地 图</string>
+
+    <string name="title_app_name">江汉公安智能咨询系统</string>
+
+    <string name="permission_dialog_title">开启%s</string>
+    <string name="permission_dialog_msg">为了您能正常使用%s，需要以下权限</string>
+    <string name="permission_title">请允许获取%s</string>
+    <string name="permission_denied">我们需要获取%1$s, 否则您将无法正常使用%2$s</string>
+    <string name="permission_denied_with_naac">"由于%1$s无法获取%2$s, 不能正常运行, 请开启权限后再使用。\n\n设置路径: 应用管理->%3$s->权限"</string>
+    <string name="permission_cancel">取消</string>
+    <string name="permission_ensure">确定</string>
+    <string name="permission_reject">拒绝</string>
+    <string name="permission_btn_next">下一步</string>
+    <string name="permission_go_to_setting">去设置</string>
+
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+
+
+    <string name="set_type">类型</string>
+    <string name="set_action">执行动作</string>
+    <string name="set_expression">面部表情</string>
+
+
+    <string name="tts_toast_format_buffer" formatted="false">缓冲进度为%d%%</string>
+    <string name="tts_toast_format_speak" formatted="false">播放进度为%d%%</string>
+
+    <string name="title_setting_pwd">请输入密码</string>
+    <string name="input_hint_pwd">请输入密码</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="excel_log">请前往海风智能科技官网下载标准批量EXCEL导入模板，否则将导入失败！将模板放置于SD卡中Donload目录下。</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="download_fail_retry">下载失败是否重试？</string>
+    <string name="download_check_finish">检测到新版本apk下载完成，是否点击安装</string>
+    <string name="download_finish">下载完成，点击安装</string>
+    <string name="downloading">正在下载中...</string>
+    <string name="pause_downloading">暂停下载</string>
+
+</resources>

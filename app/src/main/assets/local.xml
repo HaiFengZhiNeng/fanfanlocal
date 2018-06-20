@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<location>
+    <business name="人口户政" type="1">
+        <local detail="武汉市江汉区新华路251号" id="1" lat="30.601001" lng="114.270966"
+            telephone="027-85767006" title="江汉区人民政府政务服务中心" />
+        <local detail="武汉市江汉区江汉路民生路131号" id="2" lat="30.575899" lng="114.29171"
+            telephone="027-85662531" title="花楼街派出所" />
+        <local detail="武汉市江汉区民生路131号" id="3" lat="30.575867" lng="114.291615"
+            telephone="027-85394662" title="民权街派出所" />
+        <local detail="武汉市江汉区大兴路回龙巷2号" id="4" lat="30.569821" lng="114.291756"
+            telephone="027-85394663" title="民族街派出所" />
+        <local detail="武汉市江汉区民族路25号" id="5" lat="30.568996" lng="114.284955"
+            telephone="027-85394664" title="满春街派出所" />
+        <local detail="武汉市江汉区江汉四路18号" id="6" lat="30.582821" lng="114.28731"
+            telephone="027-85394665" title="水塔街派出所" />
+        <local detail="武汉市江汉区燕马新村99号" id="7" lat="30.581141" lng="114.28352"
+            telephone="027-85394666" title="前进街派出所" />
+        <local detail="武汉市江汉区民主街19号" id="8" lat="30.578232" lng="114.280272"
+            telephone="027-85394659" title="民意街派出所" />
+        <local detail="武汉市江汉区横桥村52号" id="9" lat="30.58431" lng="114.283893" telephone="027-85394660"
+            title="新华街派出所" />
+        <local detail="武汉市江汉区万松街办事处万松园路29附25号近第六十八中学斜对面" id="10" lat="30.582872" lng="114.268504"
+            telephone="027-85394746" title="万松街派出所" />
+        <local detail="武汉市江汉区八古墩西二巷与马场二路交叉口北100米" id="11" lat="30.619244" lng="114.266241"
+            telephone="027-85394673" title="唐家墩街派出所" />
+        <local detail="武汉市江汉区长江日报路28号" id="12" lat="30.604976" lng="114.273936"
+            telephone="027-85624896" title="北湖街派出所" />
+        <local detail="武汉市江汉区常青二垸168号" id="13" lat="30.629058" lng="114.257122"
+            telephone="027-85394674" title="汉兴街派出所" />
+        <local detail="武汉市江汉区建设大道441号" id="14" lat="30.588764" lng="114.250696"
+            telephone="027-83620577" title="王家墩派出所" />
+        <local detail="武汉市江汉区常文里1号" id="15" lat="30.603703" lng="114.245025"
+            telephone="027-83529456" title="常青街派出所" />
+        <local detail="武汉市江汉区解放大道1265号        " id="16" lat="30.589175" lng="114.268791"
+            telephone="027-85394724" title="中展派出所" />
+        <local detail="武汉市江汉区汉口火车站广场西" id="17" lat="30.617473" lng="114.253879"
+            telephone="027-85391163" title="汉口火车站派出所" />
+        <local detail="武汉市江汉区江汉经济开发区江兴路特1号" id="18" lat="30.625568" lng="114.235966"
+            telephone="027-83560636" title="江汉经济开发区派出所" />
+        <local detail="武汉市江汉区汉兴街办事处杨汊湖特8号" id="19" lat="30.632282" lng="114.263263"
+            telephone="027-85394658" title="姑嫂树派出所" />
+        <local detail="武汉市江汉区发展大道170号武汉金家墩汽车客运站内" id="20" lat="30.612303" lng="114.252202"
+            telephone="027-85729540" title="汉口客运站派出所" />
+    </business>
+    <business name="交管" type="2">
+        <local detail="武汉市江汉区汉兴街办事处红旗渠路174号" id="1" lat="30.625786" lng="114.259917"
+            telephone="027-63374195" title="江汉大队违法处理中心" />
+        <local detail="武汉市江汉区前进街办事处前进一路230号" id="2" lat="30.580152" lng="114.281225"
+            telephone="027-85394335" title="江汉大队三中队" />
+        <local detail="武汉市武昌区友谊大道特8号" id="3" lat="30.57177" lng="114.324318" telephone="4008000122"
+            title="武汉市公安局交通管理局车辆管理所" />
+    </business>
+    <business name="出入境" type="3">
+        <local detail="武汉市江岸区金桥大道117号" id="1" lat="30.659826" lng="114.295252"
+            telephone="027-65770000" title="武汉市民之家" />
+        <local detail="武汉市江汉区新华路251号" id="2" lat="30.601001" lng="114.270957"
+            telephone="027-85767006    " title="江汉区人民政府政务服务中心" />
+    </business>
+</location>

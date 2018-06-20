@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context=".ui.main.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ic_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/ic_logo"
+            android:gravity="center_vertical"
+            android:text="@string/title_app_name"
+            android:textColor="@color/base_color"
+            android:textSize="24sp" />
+
+        <SurfaceView
+            android:id="@+id/surface_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:alpha="255"/>
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/base_color"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/left_layout"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="330dp"
+            android:layout_height="300dp"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/bg_voice"
+            android:padding="50dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="430dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logo" />
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_layout"
+        android:layout_toRightOf="@+id/left_layout">
+
+        <FrameLayout
+            android:id="@+id/act_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent"
+            android:orientation="horizontal">
+
+            <com.fanfan.robot.local.view.navigation.BottomNavigationBar
+                android:id="@+id/navigation_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="200dp" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="problem_consulting_bar">#86B7EB</color>
+    <color name="problem_consulting">#71AFF0</color>
+
+    <color name="inactive">#CCCCCC</color>
+
+    <color name="diy_white_bg">#F0F0F0</color>
+    <color name="gray">#808080</color>
+
+    <color name="base_color">#00CCFF</color>
+    <color name="active_color">#DCF3F9</color>
+    <color name="inactive_color">#00F0FA</color>
+
+    <color name="item_color">#F3F5F4</color>
+
+    <!-- 洋李色 -->
+    <color name="gainsboro">#dcdcdc</color>
+
+    <color name="reached_color">#3498DB</color>
+</resources>
