@@ -248,19 +248,22 @@ public class AddVoiceActivity extends BaseActivity {
             Log.e(keywordList);
             voiceBean.setKeyword(GsonUtil.GsonString(keywordList));
 
-            for (int j = 0; j < keywordList.size(); j++) {
-                String key = keywordList.get(j);
-                if (j == 0) {
-                    voiceBean.setKey1(key);
-                } else if (j == 1) {
-                    voiceBean.setKey2(key);
-                } else if (j == 2) {
-                    voiceBean.setKey3(key);
-                } else if (j == 4) {
-                    voiceBean.setKey4(key);
+            if (keywordList.size() == 1) {
+                voiceBean.setKey1(showTitle);
+            } else {
+                for (int j = 0; j < keywordList.size(); j++) {
+                    String key = keywordList.get(j);
+                    if (j == 0) {
+                        voiceBean.setKey1(key);
+                    } else if (j == 1) {
+                        voiceBean.setKey2(key);
+                    } else if (j == 2) {
+                        voiceBean.setKey3(key);
+                    } else if (j == 4) {
+                        voiceBean.setKey4(key);
+                    }
                 }
             }
-
         } else {
             voiceBean.setKey1(showTitle);
         }
